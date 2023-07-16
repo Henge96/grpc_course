@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/Henge96/grpc_course/lecture/code"
+)
 
 func main() {
-	fmt.Println("Hello, from lecture")
+	fmt.Println(code.Randomaizer())
 }
